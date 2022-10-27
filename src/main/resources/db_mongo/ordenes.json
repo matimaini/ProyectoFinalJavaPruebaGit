@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "635a901f568d30780a8cdec5" }, "numero" : "1", "fecha_hora" : "2022-10-27 08:00:12", "estado" : "Abonado", "email" : "matinob.drc@gmail.com", "items" : [ { "codigo" : 1974.0, "cantidad" : 2.0 }, { "codigo" : 1986.0, "cantidad" : 1.0 } ] }

@@ -1,0 +1,3 @@
+{ "_id" : { "$oid" : "635a8cbc568d30780a8cdeba" }, "codigo" : 1974.0, "precio" : 420.0, "descripcion" : "Lampara de mesa estilo nordico", "titulo" : "Lampara TopHouse", "categoria" : "Hogar" }
+{ "_id" : { "$oid" : "635a8d71568d30780a8cdebb" }, "codigo" : 1986.0, "precio" : 90.0, "descripcion" : "El diego pintandole la cara a los ingleses", "titulo" : "Pintura al oleo 'la mano de dios'", "categoria" : "Hogar" }
+{ "_id" : { "$oid" : "635a8dbb568d30780a8cdebc" }, "codigo" : 1997.0, "precio" : 1500.0, "descripcion" : "Switch Cherry Brown", "titulo" : "Teclado mecanico Hyperx Alloy", "categoria" : "Tecnologia" }

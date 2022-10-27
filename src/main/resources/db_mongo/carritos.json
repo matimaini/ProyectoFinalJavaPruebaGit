@@ -1,0 +1,2 @@
+{ "_id" : { "$oid" : "635a8f35568d30780a8cdec1" }, "orden" : 1.0, "fechahora" : "2022-10-27 08:00:00", "productos" : [ { "codigo" : 1974.0, "cantidad" : 2.0 } ], "domicilio" : "Almafuerte 1010" }
+{ "_id" : { "$oid" : "635a8f44568d30780a8cdec2" }, "orden" : 2.0, "fechahora" : "2022-10-28 08:00:00", "productos" : [ { "codigo" : 1986.0, "cantidad" : 4.0 } ], "domicilio" : "Almafuerte 1010" }

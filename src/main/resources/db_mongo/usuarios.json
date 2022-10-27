@@ -1,0 +1,3 @@
+{ "_id" : { "$oid" : "635a899d568d30780a8cdeb5" }, "usuario" : "Ma7iM4ini", "nombre" : "Matias J. Maini", "telefono" : { "$numberLong" : "3417204219" }, "password" : "J1v1L1p4t1m1dr2", "email" : "matinob.drc@gmail.com" }
+{ "_id" : { "$oid" : "635a89fe568d30780a8cdeb6" }, "usuario" : "Juliocodes", "nombre" : "julio martinez", "telefono" : { "$numberLong" : "3417584259" }, "password" : "J5l34tr4l4", "email" : "elfamosoingeniero@gmail.com" }
+{ "_id" : { "$oid" : "635a8a3e568d30780a8cdeb7" }, "usuario" : "Nicolatesla", "nombre" : "nicolas fabu", "telefono" : { "$numberLong" : "34144458268" }, "password" : "NewellsCampeon", "email" : "bombero@gmail.com" }
