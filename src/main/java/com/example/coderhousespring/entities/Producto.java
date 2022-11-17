@@ -18,14 +18,10 @@ public class Producto {
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long idProducto;
-    @Column(name = "titulo")
-    private String titulo;
     @Column(name = "descripcion")
     private String descripcion;
     @Column(name = "precio")
     private Double precio;
-    @Column(name = "imagen")
-    private String imagen;
     @Column(name = "stock")
     private Integer stock;
     @Column(name = "categoria")

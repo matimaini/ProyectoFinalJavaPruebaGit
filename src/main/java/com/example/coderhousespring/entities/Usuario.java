@@ -19,6 +19,8 @@ public class Usuario implements Serializable {
     @Id
     @Column(name = "userId")
     @GeneratedValue(strategy = GenerationType.AUTO)
+    private String usuario;
+    @Column(name = "usuario")
     private Long idUsuario;
     @Column(name = "nombre")
     private String nombre;
@@ -26,8 +28,6 @@ public class Usuario implements Serializable {
     private String celular;
     @Column(name = "email")
     private String email;
-    @Column(name = "fecha_nac")
-    private LocalDate fechaNac;
     @Column(name = "password")
     private String password;
 

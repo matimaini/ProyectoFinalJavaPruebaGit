@@ -20,14 +20,12 @@ import java.util.List;
 public class Carrito {
 @Id @Column(name = "idCarrito")
 private Long idCarrito;
-@Column(name = "userId")
-private Long idUsuario;
-@Column(name = "productoId")
-private Long productos;
-@Column(name = "cantidad")
-private Integer cantidad;
-@Column(name = "precio")
-private Double precio;
+
+@Column(name = "productos")
+private List<Producto> productos;
+
+@Column(name = "direccion")
+private String direccion;
 
 
 }
