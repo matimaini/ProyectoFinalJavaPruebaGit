@@ -2,7 +2,6 @@ package com.example.coderhousespring.controllers;
 
 import com.example.coderhousespring.documents.Producto;
 import com.example.coderhousespring.models.request.ProductoRequest;
-import com.example.coderhousespring.models.response.ProductoResponse;
 import com.example.coderhousespring.services.ProductoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

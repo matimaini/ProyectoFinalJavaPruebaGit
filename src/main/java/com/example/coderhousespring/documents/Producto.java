@@ -17,7 +17,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "producto")
 public class Producto {
     @Id
-    private Long idProducto;
+    private String idProducto;
     private String descripcion;
     private Double precio;
     private Integer stock;

@@ -3,26 +3,29 @@ package com.example.coderhousespring.services;
 
 import com.example.coderhousespring.documents.Producto;
 import com.example.coderhousespring.models.request.ProductoRequest;
-import com.example.coderhousespring.models.response.ProductoResponse;
 import com.example.coderhousespring.repositories.ProductoRepository;
-
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.NoSuchElementException;
 
+@Service
+@AllArgsConstructor
 public class ProductoService {
 
-    public ProductoRepository productoRepository;
+    final private ProductoRepository productoRepository;
 
 
     //Crear nuevo
 public Producto crearProducto(ProductoRequest productoRequest) {
 
-    Producto producto = productoRepository.save(Producto.builder()
+    Producto producto = Producto.builder()
             .descripcion(productoRequest.getDescripcion())
             .precio(productoRequest.getPrecio())
             .stock(productoRequest.getStock())
             .categoria(productoRequest.getCategoria())
-            .build());
+            .build();
+        productoRepository.save(producto);
         return producto;
     }
 

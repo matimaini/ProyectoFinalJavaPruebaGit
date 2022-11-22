@@ -8,7 +8,7 @@ import lombok.Data;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ProductoResponse {
 
-    private Long idProducto;
+    private String idProducto;
     private String descripcion;
     private Double precio;
     private Integer stock;
