@@ -1,9 +1,6 @@
 package com.example.coderhousespring.models.request;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
@@ -12,12 +9,11 @@ import lombok.Setter;
 
 
 public class ProductoRequest {
-    private String nombre;
+
     private String descripcion;
+    private Double precio;
+    private Integer stock;
     private String categoria;
-    private String precio;
-    private String stock;
-    private String imagen;
 
 
 }
