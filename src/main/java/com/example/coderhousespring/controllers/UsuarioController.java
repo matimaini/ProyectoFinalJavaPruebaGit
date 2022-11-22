@@ -10,8 +10,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/usuario")
 @RequiredArgsConstructor
+@RequestMapping("/usuario")
 public class UsuarioController {
     @Autowired
     private final UsuarioRepository usuarioRepository;
