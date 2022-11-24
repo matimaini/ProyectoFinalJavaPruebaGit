@@ -7,7 +7,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-
+@Builder
 public class UsuarioRequest {
     private String usuario;
     private String nombre;
